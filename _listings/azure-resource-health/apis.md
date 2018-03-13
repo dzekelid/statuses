@@ -25,7 +25,7 @@ apis:
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/statuses/master/_listings/azure-resource-health/subscriptions-subscriptionid-providers-microsoft-resourcehealth-availabilitystatuses-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/statuses/master/_listings/azure-resource-health/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-resourcehealth-availabilitystatuses-get.md
 x-common:
 - type: x-faq
   url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
