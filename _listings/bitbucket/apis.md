@@ -25,7 +25,7 @@ apis:
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-commit-node-statuses-build-key-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
