@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/repos-owner-repo-statuses-ref-post.md
-- name: Github Add Repos Owner Repo Deployments  Statuses
-  description: |-
-    Create a Deployment Status
-    Users with push access can create deployment statuses for a given deployment:
+- name: Github Get Repos Owner Repo Statuses Ref
+  description: List Statuses for a specific Ref.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/repos-owner-repo-deployments-id-statuses-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/repos-owner-repo-statuses-ref-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/repos-owner-repo-statuses-ref-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
