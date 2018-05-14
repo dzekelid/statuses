@@ -23,17 +23,17 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter Update Status
-  description: Updates the authenticating user's status
+- name: Twitter Oembed Statuses
+  description: Returns information allowing the creation of an embedded representation
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuses-update-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuses-oembed-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuses-update-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuses-oembed-get-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
