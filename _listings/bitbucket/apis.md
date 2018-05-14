@@ -26,29 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-parameters.md
-- name: Bitbucket Update Repositories Username Repo Slug Commit Node Statuses Build
-    Key
-  description: |-
-    Used to update the current status of a build status object on the
-    specific commit.
-
-    This operation can also be used to change other properties of the
-    build status:
-
-    * `state`
-    * `name`
-    * `description`
-    * `url`
-    * `refname`
-
-    The `key` cannot be changed.
+- name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Statuses
+  description: Get repositories username repo slug pullrequests pull request  statuses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-commit-node-statuses-build-key-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-get-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
