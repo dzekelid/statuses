@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-parameters.md
-- name: Bitbucket Get Repositories Username Repo Slug Pullrequests Pull Request  Statuses
-  description: Get repositories username repo slug pullrequests pull request  statuses
+- name: Bitbucket Parameters Repositories Username Repo Slug Pullrequests Pull Request  Statuses
+  description: Parameters repositories username repo slug pullrequests pull request  statuses
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Statuses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/bitbucket/repositories-username-repo-slug-pullrequests-pull-request-id-statuses-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
