@@ -1,11 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: GitHub
 x-complete: 1
 info:
   title: GitHub
-  description: github-is-the-best-place-to-share-code-with-friends-coworkers-classmates-and-complete-strangers--over-24-million-people-use-github-to-build-amazing-things-together-across-67-million-repositories--with-the-collaborative-features-of-github-com-and-github-business-it-has-never-been-easier-for-individuals-and-teams-to-write-faster-better-code-
-  termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
 basePath: /
@@ -150,4 +147,38 @@ paths:
       - Repo
       - Statuses
       - Ref
----
+  /repos/{owner}/{repo}/commits/{ref}/status:
+    get:
+      summary: Get Repos Owner Repo Commits Ref Status
+      description: |-
+        Get the combined Status for a specific Ref
+        The Combined status endpoint is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the blog post for full details.
+        To access this endpoint during the preview period, you must provide a custom media type in the Accept header:
+        application/vnd.github.she-hulk-preview+json
+      operationId: get-the-combined-status-for-a-specific-refthe-combined-status-endpoint-is-currently-available-for-de
+      x-api-path-slug: reposownerrepocommitsrefstatus-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: owner
+        description: Name of repository owner
+      - in: path
+        name: ref
+      - in: path
+        name: repo
+        description: Name of repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repos
+      - Owner
+      - Repo
+      - Commits
+      - Ref
+      - Status

@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Facebook
 x-complete: 1
 info:
   title: Facebook
-  description: connect-to-the-social-network-with-the-graph-api-
   version: 1.0.0
 host: graph.facebook.com
 basePath: /
@@ -117,4 +115,98 @@ paths:
       tags:
       - User
       - Statuses
----
+  /{status}:
+    get:
+      summary: Get Status
+      description: A Facebook status
+      operationId: getStatus
+      x-api-path-slug: status-get
+      parameters:
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+  /{status}/comments:
+    get:
+      summary: Get Status Comments
+      description: All of the comments on this status.
+      operationId: getStatusComments
+      x-api-path-slug: statuscomments-get
+      parameters:
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+      - Comments
+    post:
+      summary: Post Status Comments
+      description: Posts a comment to this status.
+      operationId: postStatusComments
+      x-api-path-slug: statuscomments-post
+      parameters:
+      - in: query
+        name: message
+        description: Comment text
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+      - Comments
+  /{status}/likes:
+    get:
+      summary: Get Status Likes
+      description: Users who like this status.
+      operationId: getStatusLikes
+      x-api-path-slug: statuslikes-get
+      parameters:
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+      - Likes
+    post:
+      summary: Post Status Likes
+      description: Likes this status.
+      operationId: postStatusLikes
+      x-api-path-slug: statuslikes-post
+      parameters:
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+      - Likes
+    delete:
+      summary: Delete Status Likes
+      description: Unlikes this status.
+      operationId: deleteStatusLikes
+      x-api-path-slug: statuslikes-delete
+      parameters:
+      - in: path
+        name: status
+        description: Represents the ID of the status object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Status
+      - Likes

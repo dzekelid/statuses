@@ -3,122 +3,135 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Statuses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter Mentions Timelines
-  x-api-slug: twitter
+- name: Twitter - Mentions Timelines
+  x-api-slug: statusesmentions-timeline-get
   description: Returns the 20 most recent mentions for the authenticating user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/mentions_timeline
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesmentions-timeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
-- name: Twitter Show Timelines Status
-  x-api-slug: twitter
+- name: Twitter - Show Timelines Status
+  x-api-slug: statusesuser-timeline-json-get
   description: Returns a collection of the most recent Tweets posted by the User
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/user_timeline.json
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
-- name: Twitter Status Timeline
-  x-api-slug: twitter
+- name: Twitter - Status Timeline
+  x-api-slug: statuseshome-timeline-get
   description: Returns a collection of the most recent Tweets
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/home_timeline
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuseshome-timeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statuseshome-timeline-get-openapi.md
-- name: Twitter Show Retweets
-  x-api-slug: twitter
+- name: Twitter - Show Retweets
+  x-api-slug: statusesretweetsid-post
   description: Retweens a tweet
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/retweets/{id}
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesretweetsid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesretweetsid-post-openapi.md
-- name: Twitter Remove Tweet
-  x-api-slug: twitter
+- name: Twitter - Remove Tweet
+  x-api-slug: statusesdestroyid-post
   description: Destroys the status specified by the required ID parameter
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/destroy/{id}
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesdestroyid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesdestroyid-post-openapi.md
-- name: Twitter Update Status
-  x-api-slug: twitter
+- name: Twitter - Update Status
+  x-api-slug: statusesupdate-post
   description: Updates the authenticating user's status
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/update
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesupdate-post-openapi.md
-- name: Twitter Oembed Statuses
-  x-api-slug: twitter
+- name: Twitter - Oembed Statuses
+  x-api-slug: statusesoembed-get
   description: Returns information allowing the creation of an embedded representation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/oembed
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesoembed-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/statusesoembed-get-openapi.md
-- name: Twitter Search Tweets
-  x-api-slug: twitter
+- name: Twitter - Search Tweets
+  x-api-slug: searchtweets-json-get
   description: returns collection of relevant Tweets matching query
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//search/tweets.json
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/searchtweets-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/searchtweets-json-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Statuses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -126,6 +139,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management

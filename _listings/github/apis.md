@@ -8,72 +8,140 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Statuses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Repos Owner Repo Deployments  Statuses
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Deployments  Statuses
+  x-api-slug: reposownerrepodeploymentsidstatuses-get
   description: Users with pull access can view deployment statuses for a deployment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments/{id}/statuses
-  tags: Repos, Owner, Repo, Deployments, , Statuses
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepodeploymentsidstatuses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepodeploymentsidstatuses-get-openapi.md
-- name: Github Add Repos Owner Repo Deployments  Statuses
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Deployments  Statuses
+  x-api-slug: reposownerrepodeploymentsidstatuses-post
   description: |-
     Create a Deployment Status
     Users with push access can create deployment statuses for a given deployment:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments/{id}/statuses
-  tags: Repos, Owner, Repo, Deployments, , Statuses
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepodeploymentsidstatuses-post-openapi.md
-- name: Github Get Repos Owner Repo Statuses Ref
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Statuses Ref
+  x-api-slug: reposownerrepostatusesref-get
   description: List Statuses for a specific Ref.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/statuses/{ref}
-  tags: Repos, Owner, Repo, Statuses, Ref
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepostatusesref-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepostatusesref-get-openapi.md
-- name: Github Add Repos Owner Repo Statuses Ref
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Statuses Ref
+  x-api-slug: reposownerrepostatusesref-post
   description: Create a Status.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/statuses/{ref}
-  tags: Repos, Owner, Repo, Statuses, Ref
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepostatusesref-post-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
+- name: GitHub - Get Repos Owner Repo Commits Ref Status
+  x-api-slug: reposownerrepocommitsrefstatus-get
+  description: |-
+    Get the combined Status for a specific Ref
+    The Combined status endpoint is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the blog post for full details.
+    To access this endpoint during the preview period, you must provide a custom media type in the Accept header:
+    application/vnd.github.she-hulk-preview+json
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
-  tags: Statuses
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-openapi.md
+- name: GitHub - Get Repos Owner Repo Commits Ref Status
+  x-api-slug: reposownerrepocommitsrefstatus-get
+  description: |-
+    Get the combined Status for a specific Ref
+    The Combined status endpoint is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the blog post for full details.
+    To access this endpoint during the preview period, you must provide a custom media type in the Accept header:
+    application/vnd.github.she-hulk-preview+json
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-openapi.md
+- name: GitHub - Get Repos Owner Repo Commits Ref Status
+  x-api-slug: reposownerrepocommitsrefstatus-get
+  description: |-
+    Get the combined Status for a specific Ref
+    The Combined status endpoint is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the blog post for full details.
+    To access this endpoint during the preview period, you must provide a custom media type in the Accept header:
+    application/vnd.github.she-hulk-preview+json
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/statuses/master/_listings/github/reposownerrepocommitsrefstatus-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog
